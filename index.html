@@ -3,18 +3,26 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="./css/style.css">
 		<title>Preview Card</title>
 	</head>
 	<body>
 		<main>
-			<img src="./img/illustration-article.svg">
-			<p>Learning</p>
-			<p>Published 21 Dec 2023</p>
-			<h1>HTML & CSS foundations</h1>
-			<p>These languages are the backbone of every website, defining structure, content, and presentation</p>
-			<div>
-				<img src="./img/image-avatar.webp">
-				<p>Greg Hooper</p>
+			<div class="card">
+				<img src="./img/illustration-article.svg">
+				<div class="cta">
+					<p>Learning</p>
+				</div>
+				<article>
+					<p class="published">Published 21 Dec 2023</p>
+					<h1>HTML & CSS foundations</h1>
+					<p class="card-info">These languages are the backbone of every website, defining structure, content, and presentation</p>
+				</article>
+				<div class="card-footer">
+					<img src="./img/image-avatar.webp">
+					<p>Greg Hooper</p>
+				</div>
 			</div>
 		</main>	
 	</body>
