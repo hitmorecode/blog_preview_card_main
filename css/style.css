@@ -32,3 +32,8 @@ body {
 	background-color: var(--neutral-white);
 	padding: 2.3rem;
 }
+
+.cta > p {
+	background-color: var(--primary-yellow);
+	max-width: 8.3rem;
+}
