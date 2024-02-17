@@ -39,6 +39,7 @@ body {
 	width: 33.6rem;
 	height: 20.1rem;
 	margin-bottom: 2.2rem;
+	border: 0.3rem solid red;
 }
 
 img {
@@ -61,6 +62,16 @@ img {
 
 article {
 	margin-bottom: 2.3rem;
+}
+
+h1 {
+	font-weight: var(--font-weight-800);
+}
+
+.card-info {
+	color: var(--neutral-grey);
+	line-height: 2.2rem;
+	font-weight: var(--font-weight-600);
 }
 
 .published {
