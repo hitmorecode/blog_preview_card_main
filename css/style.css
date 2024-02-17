@@ -31,9 +31,53 @@ body {
 	height: 52.1rem;
 	background-color: var(--neutral-white);
 	padding: 2.3rem;
+	border-radius: 2rem;
+	box-shadow: 9px 9px black;
+}
+
+#img-holder {
+	width: 33.6rem;
+	height: 20.1rem;
+	margin-bottom: 2.2rem;
+}
+
+img {
+	border-radius: 2rem;
 }
 
 .cta > p {
+	display: inline-block;
 	background-color: var(--primary-yellow);
-	max-width: 8.3rem;
+	padding: 0.7rem 1.3rem;
+	border: none;
+	font-size: 1.4rem;
+	font-weight: var(--font-weight-800);
+	border-radius: 0.5rem;
+}
+
+.cta {
+	margin-bottom: 1.3rem;
+}
+
+article {
+	margin-bottom: 2.3rem;
+}
+
+.published {
+	margin-bottom: 1.3rem;
+}
+
+h1 {
+	margin-bottom: 1.7rem;
+}
+
+.card-footer {
+	display: flex;
+	align-items: center;
+}
+
+.card-footer > img {
+	width: 3.3rem;
+	height: 3.3rem;
+	margin-right: 1.1rem;
 }
