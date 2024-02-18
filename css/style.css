@@ -36,14 +36,19 @@ body {
 }
 
 #img-holder {
+	background-image: url(../img/illustration-article.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	width: 33.6rem;
 	height: 20.1rem;
 	margin-bottom: 2.2rem;
-	border: 0.3rem solid red;
+	/* border: 0.3rem solid red; */
+	border-radius: 20px;
 }
 
 img {
 	border-radius: 2rem;
+	margin-bottom: 2.2rem;
 }
 
 .cta > p {
@@ -91,4 +96,17 @@ h1 {
 	width: 3.3rem;
 	height: 3.3rem;
 	margin-right: 1.1rem;
+}
+
+@media only screen and (max-width: 37.5rem) {
+	.card {
+		width: 32.7rem;
+		height: 50.1rem;
+	}
+
+	#img-holder {
+		width: 27.9rem;
+		height: 20rem;
+		border-radius: 1rem;
+	}
 }
