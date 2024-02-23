@@ -33,11 +33,14 @@ body {
 	box-shadow: 0.9rem 0.9rem black;
 }
 
-#img-holder > img {
+#img-holder {
+	background-image: url(../img/illustration-article.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	width: 33.6rem;
 	height: 20.1rem;
 	margin-bottom: 2.2rem;
-	/* border: 0.3rem solid red; */
 	border-radius: 2rem;
 }
 
@@ -61,6 +64,8 @@ article {
 
 h1 {
 	font-weight: var(--font-weight-800);
+	margin-bottom: 1.7rem;
+	color: var(--neutral-black);
 }
 
 .card-info {
@@ -71,10 +76,6 @@ h1 {
 
 .published {
 	margin-bottom: 1.3rem;
-}
-
-h1 {
-	margin-bottom: 1.7rem;
 }
 
 .card-footer > img {
@@ -88,15 +89,27 @@ h1 {
 	align-items: center;
 }
 
+.card-footer > p {
+	font-weight: var(--font-weight-800)
+}
+
 @media only screen and (max-width: 37.5rem) {
 	.card {
 		width: 32.7rem;
 		height: 50.1rem;
 	}
 
-	#img-holder > img {
-		width: 27.9rem;
-		height: 20rem;
-		border-radius: 1rem;
+	#img-holder {
+		width: 28.1rem;
+		height: 20.1rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.card-info {
+		line-height: 2rem;
 	}
 }
