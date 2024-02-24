@@ -67,6 +67,12 @@ h1 {
 	font-weight: var(--font-weight-800);
 	margin-bottom: 1.7rem;
 	color: var(--neutral-black);
+	transition: all 100ms ease-in-out;
+}
+
+h1:hover {
+	color: var(--primary-yellow);
+	cursor: pointer;
 }
 
 .card-info {
